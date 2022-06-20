@@ -3,10 +3,15 @@ Khushi Jain's Assignment Submission for Fiscal Data Fellow
 
 # Importing Data
 #specifying the path
+
 path <- "C:/Users/khush/OneDrive/Desktop/Everything/K/CivilDataLab/district_level_mapping_2017.csv"
+
 #reading contents of csv file
+
 Expenditure2017 <- read.csv(path)
+
 #contents of the csv file
+
 view (Expenditure2017)
 
 #Cleaning the Data for School Education Expenditure
